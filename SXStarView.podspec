@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SXStarView"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "create a starView, later could tap"
   #s.description  = <<-DESC
   #                  DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/poos/SXStarView.git", :tag => s.version.to_s }
 
-  s.source_files  = "SXStarView/**/*.{h,m}"
+  s.source_files  = "SXStarView/**/*.{h,m,png}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
